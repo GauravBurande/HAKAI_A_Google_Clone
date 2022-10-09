@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background: url('https://wallpaperaccess.com/full/6691450.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Outfit', sans-serif;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.489);
+    padding: 1px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+}
+
+li:nth-child(3) {
+    margin-left: 1100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#signIn {
+    background-color: rgb(67, 134, 229);
+    color: white;
+    padding: 10px;
+}
+
+.hakai {
+    display: flex;
+    justify-content: center;
+    margin-top: 290px;
+    font-size: 100px;
+    text-shadow: 0 0 3vw #f40a58;
+}
+
+@keyframes neon {
+
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16,
+         0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    }
+    50% {
+        text-shadow: 0 0 .5vw #1aadf1, 0 0 1.5vw #1aadf1, 0 0 5vw #1aadf1, 0 0 5vw #1aadf1,
+         0 0 .2vw #1aadf1, .5vw .5vw .1vw #40440A; 
+    }
+}
+
+.hakai {
+    animation: neon 1s ease infinite;
+    -moz-animation: neon 1s ease infinite;
+    -webkit-animation: neon 1s ease infinite;
+}
+
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#userInput {
+    padding: 20px 150px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] {
+    font-family: 'Outfit', sans-serif;
+    padding: 10px 50px;
+    margin: 6px;
+    background-color: rgb(67, 134, 229);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+.moon {
+    font-family: 'Outfit', sans-serif;
+    padding: 10px 50px;
+    margin: 6px;
+    background-color: rgb(67, 134, 229);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
