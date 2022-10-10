@@ -74,6 +74,7 @@ a {
 #userInput {
     padding: 20px 150px;
     font-family: 'Outfit', sans-serif;
+    border-style: none;
 }
 
 .btns {
@@ -99,7 +100,32 @@ input[type=submit] {
     color: white;
 }
 
+@media only screen and (max-width: 415px) {
+    body {
+        background-color: yellow;
+    }
 
+    li:nth-child(3) {
+        margin-left: 70px;
+    }
+
+    .hakai {
+        margin-top: 200px;
+    }
+
+
+    .btns {
+        display: inline;
+    }
+
+    .moon {
+        margin-bottom: 435px;
+    }
+
+    input[type=submit] {
+        margin-left: 150px;
+    }
+}
 
 
 
